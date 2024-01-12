@@ -34,6 +34,7 @@ header{
 
 .bio h2, p{
     color: white;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .bio{
@@ -44,6 +45,7 @@ header{
 .bio h2{
     font-size: 2.5rem;
     padding: 0px 20px 20px 50px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .bio-p{
@@ -52,6 +54,7 @@ header{
     padding: 20px 0px 0px 50px;
     margin-right: 20px;
     line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -78,6 +81,7 @@ header{
 
 .contact-title h3{
     font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .contact-info{
@@ -88,6 +92,7 @@ header{
 .contact-info p{
     color: black;
     font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .container-skills{
@@ -101,10 +106,12 @@ header{
 td{
     padding: 10px 50px 20px 0px;
     font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .skills-title h3{
     font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* WORK */
@@ -123,12 +130,14 @@ td{
 
 .main-h3-title h3{
     font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .main-title h4{
     font-size: 1.2rem;
     padding: 10px 20px 10px 30px;
     font-style: italic;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .work-experience p{
@@ -136,6 +145,7 @@ td{
     font-size: 1.2rem;
     line-height: 1.5;
     padding: 10px 20px 0px 30px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .degree p{
@@ -143,10 +153,12 @@ td{
     color: black;
     font-size: 1.2rem;
     line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .edu-p {
     padding-bottom: 15px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
