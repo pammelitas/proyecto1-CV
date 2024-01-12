@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.edu-italic{
+    font-style: italic;
+    font-weight: 300;
+}
+
+/* HEADER */
+.container-header{
+    /* border: 3px solid white; */
+    display: flex;
+}
+
+.header-img{
+    width: 380px;
+    height: 400px;
+    border-radius: 5px;
+    /* border: 3px solid red; */
+}
+
+header{
+    background-color: rgb(151, 132, 148);
+    padding: 100px ;
+}
+
+.bio h2, p{
+    color: white;
+}
+
+.bio{
+    /* border: 2px solid cornflowerblue; */
+    padding-top: 40px;
+}
+
+.bio h2{
+    font-size: 2.5rem;
+    padding: 0px 20px 20px 50px;
+}
+
+.bio-p{
+    /* border: 2px solid green; */
+    font-size: 1.2rem;
+    padding: 20px 0px 0px 50px;
+    margin-right: 20px;
+    line-height: 1.5;
+}
+
+
+/* CONTACT */
+.container-main{
+    /* border: 2px solid red; */
+    display: flex;
+    background-color: rgb(225, 225, 225);
+    justify-content: center;
+    /* width: 80%; */
+    padding-bottom: 30px;
+}
+
+.container-contact{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-title{
+    /* border: 2px solid red; */
+    padding: 50px 20px 50px 100px;
+}
+
+.contact-title h3{
+    font-size: 1.5rem;
+}
+
+.contact-info{
+    margin-top: 30px;
+    margin-right: 100px;
+}
+
+.contact-info p{
+    color: black;
+    font-size: 1.2rem;
+}
+
+.container-skills{
+    padding: 30px 20px 20px 100px;
+}
+
+.skills-title{
+    margin-bottom: 20px;
+}
+
+td{
+    padding: 10px 50px 20px 0px;
+    font-size: 1.2rem;
+}
+
+.skills-title h3{
+    font-size: 1.5rem;
+}
+
+/* WORK */
+.container-work{
+    /* border: 2px solid purple; */
+    display: flex;
+    flex-direction: column;
+    /* width: 95%; */
+    margin-right: 70px;
+
+}
+
+.main-h3-title{
+    padding: 50px 20px 10px 30px;
+}
+
+.main-h3-title h3{
+    font-size: 1.5rem;
+}
+
+.main-title h4{
+    font-size: 1.2rem;
+    padding: 10px 20px 10px 30px;
+    font-style: italic;
+}
+
+.work-experience p{
+    color: black;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    padding: 10px 20px 0px 30px;
+}
+
+.degree p{
+    margin-left: 30px;
+    color: black;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.edu-p {
+    padding-bottom: 15px;
+}
+
+
+/* MEDIA QUERIES */
+@media screen and (min-width:360px) and (max-width:1020px){
+    header{
+        background-color: red;
+    }
+
+    .container-header{
+        /* border: 3px solid white; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header{
+        background-color: rgb(151, 132, 148);
+        padding: 50px ;
+        text-align: center;
+        /* border: 2px solid red; */
+    }
+
+    .bio{
+        /* border: 2px solid cornflowerblue; */
+        padding-top: 30px;
+    }
+
+    .bio h2{
+        font-size: 3rem;
+    }
+
+    .bio-p {
+        /* border: 2px solid green; */
+        font-size: 1rem;
+        line-height: 1.5;
+        margin: 10px 10px 10px 10px;
+        padding: 0px;
+    }
+
+    .header-img{
+        width: 380px;
+        height: 400px;
+        border-radius: 5px;
+        /* border: 3px solid red; */
+    }
+    
+    /* CONTACT */
+    .container-main{
+        /* border: 2px solid red; */
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .container-contact{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .contact-title{
+        /* border: 2px solid red; */
+        padding: 50px 0px 50px 50px;
+        
+    }
+
+    .contact-info{
+        margin-left: 0px;
+    }
+
+    .container-skills{
+        padding: 50px 20px 20px 0px;
+        /* border: 2px solid red; */
+    }
+
+    td{
+        padding: 10px 50px 15px 0px;
+        font-size: 1rem;
+    }
+
+    .contact-title h3{
+        font-size: 1.3rem;
+    }
+    
+    .contact-info p{
+        color: black;
+        font-size: 1rem;
+    }
+
+    .skills-title h3{
+        font-size: 1.3rem;
+    }
+
+    /* WORK */
+    .container-work{
+        /* border: 2px solid purple; */
+        display: flex;
+        flex-direction: column;
+            /* width: 95%; */
+        margin: auto;
+        text-align: center;
+        padding: 0px 30px;
+    }   
+
+    .main-h3-title{
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .main-h3-title h3{
+        font-size: 1.3rem;
+    }
+    
+    .main-title h4{
+        font-size: 1rem;
+    }
+
+    .work-experience p{
+        color: black;
+        font-size: 1rem;
+        line-height: 1.5;
+        padding: 10px 20px 20px 30px;
+    }
+
+    .degree p{
+        margin-left: 30px;
+        color: black;
+        font-size: 1rem;
+        line-height: 1.5;
+        text-align: center;
+    }
+
+    .degree h4{
+        text-align: center;
+    }
+
+
+    .education{
+        padding-top: 3px;
+        display: flex;
+    }
+}
